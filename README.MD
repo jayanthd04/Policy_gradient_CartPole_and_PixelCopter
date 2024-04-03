@@ -1,6 +1,6 @@
 # Policy_gradient_CartPole_and_PixelCopter
 
-This repo implements Policy Gradient from scratch and solves the CartPole and PixelCopter environments. 
+This repo implements Policy Gradient from scratch in PyTorch to solve the CartPole and PixelCopter environments. 
 
 ## What is Policy Gradient? 
 Policy Gradient is a policy-based method. The basic idea is that we have a parameterized policy that we try to update to ensure the policy chooses actions that are more optimal. We use an objective function to measure the performance of our policy. We then essentially use the objective function as a loss function for our policy fucntion and update parameters on our policy based on the gradient of our objective function, hence the gradient portion of the policy gradient.
